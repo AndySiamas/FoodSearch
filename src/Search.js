@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import $ from 'jquery'; 
-import getFoods from './lib/SearchPlaces.js';
+import getData from './lib/SearchPlaces.js';
 import './Images/magnifier.png';
 
 class Search extends Component {

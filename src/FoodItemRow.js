@@ -10,7 +10,14 @@ class FoodItemRow extends Component {
   render() {
     return (
       <div className="FoodItemRow">
-        <p> FOOD ITEM </p>
+        <div className="row">
+          <div className="col-md-4">
+            <p> {this.props.name} </p>
+          </div>
+          <div className="col-md-4">
+            <p> Information goes here </p>
+          </div>
+        </div>
       </div>
     );
   }
