@@ -1,0 +1,44 @@
+.App {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  height: 100%;
+  text-align: center;
+  justify-content: center;
+  width: auto;
+}
+
+.Search {
+  width: 100%;
+}
+
+.SearchButton {
+  top: -2px;
+  position: relative;
+  width: auto;
+  height: 50px;
+  border: 1px solid grey;
+  border-radius: 2%;
+  background-color: #f0f1f4;
+}
+
+.magnifier {
+  height: 30px;
+  width: auto;
+}
+
+.SearchBar {
+  width: 90%;
+  height: 50px;
+  border: 1px solid grey;
+}
+
+
+.App-title {
+  font-size: 3.5em;
+}
